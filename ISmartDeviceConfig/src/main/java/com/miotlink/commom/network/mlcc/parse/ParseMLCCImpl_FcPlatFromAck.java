@@ -1,10 +1,12 @@
 package com.miotlink.commom.network.mlcc.parse;
 
+import com.miotlink.commom.network.mlcc.utils.MLCCCodeConfig;
+import com.miotlink.commom.network.mlcc.utils.MLCCReflectUtils;
+import com.miotlink.common.network.mlcc.pojo.response.RespFcPlatFromAck;
+
 import java.util.Map;
 
-import com.miot.commom.network.mlcc.utils.MLCCCodeConfig;
-import com.miot.commom.network.mlcc.utils.MLCCReflectUtils;
-import com.miot.common.network.mlcc.pojo.response.RespFcPlatFromAck;
+
 
 public class ParseMLCCImpl_FcPlatFromAck implements ParseMLCCInterface<RespFcPlatFromAck> {
 

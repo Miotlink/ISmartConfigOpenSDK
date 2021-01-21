@@ -1,10 +1,12 @@
 package com.miotlink.commom.network.mlcc.parse;
 
+import com.miotlink.commom.network.mlcc.utils.MLCCCodeConfig;
+import com.miotlink.commom.network.mlcc.utils.MLCCFcReflectUtils;
+import com.miotlink.common.network.mlcc.pojo.response.RespFc_completeAck;
+
 import java.util.Map;
 
-import com.miot.commom.network.mlcc.utils.MLCCCodeConfig;
-import com.miot.commom.network.mlcc.utils.MLCCFcReflectUtils;
-import com.miot.common.network.mlcc.pojo.response.RespFc_completeAck;
+
 
 public class ParseMLCCImpl_Fc_completeAck implements ParseMLCCInterface<RespFc_completeAck> {
 
