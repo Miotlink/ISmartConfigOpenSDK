@@ -1,0 +1,3 @@
+include ':ISmartDeviceConfig'
+include ':app'
+rootProject.name = "ISmartDeviceConfigSDK"
